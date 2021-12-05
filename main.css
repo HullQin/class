@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+}
+#header {
+    background-color: #f3f3f4;
+    height: 58px;
+    line-height: 58px;
+    text-align: center;
+    color: #337ab7;
+    font-size: 24px;
+    font-weight: 100;
+}
+#map {
+    height: calc(100vh - 58px);
+    background-image: url("img/main/default.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

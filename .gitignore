@@ -1,0 +1,7 @@
+.idea
+node_modules
+data
+img/main/*/*.jpg
+upload.js
+package.json
+package-lock.json
