@@ -1,7 +1,7 @@
 window.publicPath = 'https://fe-1255520126.file.myqcloud.com/class/';
 if (location.pathname !== '/') {
   const script = document.createElement('script');
-  script.src = window.publicPath + 'data' + location.pathname;
+  script.src = window.publicPath + 'data' + location.pathname + '.js';
   document.body.appendChild(script);
 }
 window.onload = () => {
